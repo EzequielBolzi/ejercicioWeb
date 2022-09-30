@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar tisson</title>
+    <link rel="stylesheet" href="cartilla.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <p class="logo">Tisson</p>
+                <hr>
+                <nav>
+                    <a href="#plato-dia">Plato del dia</a>
+                    <a href="#menus">Menu</a>
+                    <a href="#desarrollador">Desarrollador Web</a>
+                </nav>
+            </div> 
+    </header>
+    <section id="sub-title">
+        <h1>Bienvenidos a <b>Tisson</b>,<br> los mejores platos de zona este.</h1>
+        <a href="#form"><button >RESERVA TU MESA!</button> </a>
+    </section>
+  
+    <section id="plato-dia">
+        <div class="container">
+            <div class="texto-container">
+                <p>El plato del dia  es una riquisima burger con cheddar, bacon, salsa tisson <br>con  fritas.</p>
+            </div>
+        </div>
+        
+    </section>
+    <section id="menus">
+    <section id="menu-entradas">
+      <h3><u>Entradas</u></h3>
+        <div class="entradas-menu">
+          <ul>
+            <li>
+              <b>Tomate relleno con queso </b> <i>(Cebolla, queso, morron, aceitunas)</i>
+            </li>
+            <li>
+              <b> Banderin de salchicha </b> <i>(Huevo, pan rallado, pan de molde, salchicha alemana)</i>
+            </li>
+
+          </ul>
+
+        </div>
+    </section>
+    <section id="menu-pastas">
+        <h3><u>Pastas</u></h3>
+        <div class="pastas-menu">
+          <ul>
+            <li>
+              <b>Ñoquis de papa </b>
+            </li>
+            <li>
+              <b>Sorrentinos </b> <i> (Jamon y mozarella)</i>
+            </li>
+            <li>
+              <b>Salsas</b> <i>(Tomate, fileto, rosa, blanca)</i>
+            </li>
+
+          </ul>
+
+
+        </div>
+    </section>
+    <section id="menu-minutas">
+        <h3><u>Minutas</u></h3>
+        <div class="minutas-menu">
+          <ul>
+            <li>
+              <b>Hamburguesa de carne SIMPLE/DOBLE/TRIPLE</b> <i>(Bacon, cheddar, cebolla, ketchup, mostaza)</i>
+            </li>
+            <li>
+              <b>Milanesa de carne/pollo</b> <i>(Milanesa de peceto y/o pollo con fritas)</i>
+            
+            </li>
+            <li>
+              <b>Churrasco de paleta a la criolla con papas</b> <i>(Cebolla, morron, ajo, zanahoria, papas varias)</i>
+            </li>
+
+          </ul>
+
+        </div>
+    </section>
+    <section id="menu-bebidas">
+        <h3><u>Bebidas</u></h3>
+        <div class="bebidas-menu">
+          <ul>
+            <li>
+              <b>Gaseosas</b> <i>(Coca Cola, fanta, agua, agua saborizada)</i> 
+            </li>
+            <li>
+              <b>Cervezas</b> <i>(Lager, stout, porter)</i>
+            </li>
+            <li>
+              <b>Tragos</b> <i>(Margarita, mojito, gintonic, caipirinha)</i>
+            </li>
+        </div>
+    </section>
+  </section>
+  <section id="form">
+      <!-- formulario de contacto en html y css -->  
+
+<div class="contact_form">
+
+<div class="formulario">      
+  <h1>RESERVA TU MESA AQUI</h1>
+
+
+      <form action="submeter-formulario.php" method="post">               
+            <p>
+              <label for="nombre" class="colocar_nombre">Nombre
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+        
+            <p>
+              <label for="telefone" class="colocar_telefono">Teléfono
+              </label>
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p>     
+            <p>
+              <label for="asunto" class="colocar_asunto">Asunto
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+            </p>    
+          
+            <p>
+              <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+              </label>                     
+                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Indique cuantas personas son.."></textarea> 
+                            </p>                    
+          
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+            <p class="aviso">
+              <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>          
+        
+      </form>
+</div>  
+</div>
+  </section>
+
+
+    <section id="desarrollador">
+      <div class="container">
+        <div class="img-container-des"></div>
+        
+        <div class="desarrollador-texto">
+          <h4>Desarrollador web</h4>
+            <p>
+                Proyecto creado por Ezequiel Bolzi, estudiante de la Tec. en desarrollo de software.
+                <br>
+                <br>
+                <br>Contacto : ezequielbolzi@hotmail.com
+            </p>
+        </div>
+      </div>
+
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Tisson 2022
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
